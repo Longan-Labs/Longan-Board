@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/Longan-Labs/Longan-Board/master/Longan_AVR_v1.0.0.tar.bz2",
           "archiveFileName": "Longan_AVR_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:63c37c1eb8b37c92a2b4500fc6f157cff62e9d24a0a94f9faca7cf31be7abbca",
-          "size": "4885073",
+          "checksum": "SHA-256:3157b82b85fbc715f1610a3497bcd15f4a083c0dc8223cc6626396a7aaa8d2fa",
+          "size": "4884140",
           "boards": [
             {
               "name": "Carduino 328"
