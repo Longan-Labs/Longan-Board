@@ -49,6 +49,47 @@
               "version": "1.1.1"
             }
           ]
+        },
+                {
+          "name": "Longan AVR",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://docs.longan-labs.cc/"
+          },
+          "url": "https://raw.githubusercontent.com/Longan-Labs/Longan-Board/master/Longan_AVR_v1.0.1.tar.bz2",
+          "archiveFileName": "Longan_AVR_v1.0.1.tar.bz2",
+          "checksum": "SHA-256:f21cec17fa9176f1bd3272cb92b6d5f77a5fb28df7458d864916c5cfef41a4e1",
+          "size": "5181828",
+          "boards": [
+            {
+              "name": "Carduino 328"
+            },
+            {
+              "name": "Carduino 32U4"
+            },
+            {
+              "name": "Longan card"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Longan Card",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "Longan Card",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "Longan Card",
+              "name": "arduinoOTA",
+              "version": "1.1.1"
+            }
+          ]
         }
       ],
       "tools": [
