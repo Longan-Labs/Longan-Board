@@ -135,6 +135,47 @@
         {
           "name": "Longan AVR",
           "architecture": "avr",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "help": {
+            "online": "https://docs.longan-labs.cc/"
+          },
+          "url": "https://raw.githubusercontent.com/Longan-Labs/Longan-Board/master/Longan_AVR_v1.0.3.tar.bz2",
+          "archiveFileName": "Longan_AVR_v1.0.3.tar.bz2",
+          "checksum": "SHA-256:10b09fc8787613410cfe2798cd8eb32ab5c5e6f510536038c42958eddab2f30b",
+          "size": "5183149",
+          "boards": [
+            {
+              "name": "Carduino 328"
+            },
+            {
+              "name": "Carduino 32U4"
+            },
+            {
+              "name": "Longan card"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Longan Card",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "Longan Card",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "Longan Card",
+              "name": "arduinoOTA",
+              "version": "1.1.1"
+            }
+          ]
+        },
+        {
+          "name": "Longan AVR",
+          "architecture": "avr",
           "version": "1.0.4",
           "category": "Contributed",
           "help": {
@@ -170,39 +211,7 @@
               "packager": "Longan Card",
               "name": "arduinoOTA",
               "version": "1.1.1"
-            },
-          "url": "https://raw.githubusercontent.com/Longan-Labs/Longan-Board/master/Longan_AVR_v1.0.3.tar.bz2",
-          "archiveFileName": "Longan_AVR_v1.0.3.tar.bz2",
-          "checksum": "SHA-256:10b09fc8787613410cfe2798cd8eb32ab5c5e6f510536038c42958eddab2f30b",
-          "size": "5183149",
-          "boards": [
-            {
-              "name": "Carduino 328"
-            },
-            {
-              "name": "Carduino 32U4"
-            },
-            {
-              "name": "LonganCard (Atmega168PA)"
             }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Longan Card",
-              "name": "avr-gcc",
-              "version": "4.9.2-atmel3.5.4-arduino2"
-            },
-            {
-              "packager": "Longan Card",
-              "name": "avrdude",
-              "version": "6.3.0-arduino9"
-            },
-            {
-              "packager": "Longan Card",
-              "name": "arduinoOTA",
-              "version": "1.1.1"
-            }
-            
           ]
         }
       ],
