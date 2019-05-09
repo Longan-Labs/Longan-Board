@@ -49,7 +49,7 @@ void CARD_INFO::getInfo()
     Wire.endTransmission();    // stop transmitting
     delay(10);
     
-    Wire.requestFrom(addr, 1);    // request 6 bytes from slave device #8
+    Wire.requestFrom((uint8_t)addr, (uint8_t)1);    // request 6 bytes from slave device #8
     delay(10);
     
     while (Wire.available())
@@ -64,7 +64,7 @@ void CARD_INFO::getInfo()
     Wire.endTransmission();    // stop transmitting
     delay(10);
     
-    Wire.requestFrom(addr, 1);    // request 6 bytes from slave device #8
+    Wire.requestFrom((uint8_t)addr, (uint8_t)1);    // request 6 bytes from slave device #8
     delay(10);
     
     while (Wire.available())
@@ -79,7 +79,7 @@ void CARD_INFO::getInfo()
     Wire.endTransmission();    // stop transmitting
     delay(10);
     
-    Wire.requestFrom(addr, 1);    
+    Wire.requestFrom((uint8_t)addr, (uint8_t)1);    
     delay(10);
     
     while (Wire.available())
@@ -94,7 +94,7 @@ void CARD_INFO::getInfo()
     Wire.endTransmission();    // stop transmitting
     delay(10);
     
-    Wire.requestFrom(addr, nameLen);    // request 6 bytes from slave device #8
+    Wire.requestFrom((uint8_t)addr, (uint8_t)nameLen);    // request 6 bytes from slave device #8
 
     if (Wire.available())
     { // slave may send less than requested
@@ -115,7 +115,7 @@ void CARD_INFO::getInfo()
     Wire.endTransmission();    // stop transmitting
     delay(10);
     
-    Wire.requestFrom(addr, 4);    // request 6 bytes from slave device #8
+    Wire.requestFrom((uint8_t)addr, (uint8_t)4);    // request 6 bytes from slave device #8
     delay(10);
     
     unsigned char tmp[4];
@@ -144,7 +144,7 @@ void CARD_INFO::getInfo()
     Wire.endTransmission();    // stop transmitting
     delay(10);
     
-    Wire.requestFrom(addr, 4);    // request 6 bytes from slave device #8
+    Wire.requestFrom((uint8_t)addr, (uint8_t)4);    // request 6 bytes from slave device #8
     delay(10);
     
     tmplen = 0;
@@ -189,12 +189,5 @@ void CARD_INFO::disp()
     Serial.print("VERSION: ");
     Serial.println(version, 2);
 }
-/*
-float CARD_INFO::str2float(unsigned char *str)
-{
-    float num = 0;
-    memcpy((unsigned char *)(&num), str, 4);
-    return num;
-}*/
 
 // END FILE

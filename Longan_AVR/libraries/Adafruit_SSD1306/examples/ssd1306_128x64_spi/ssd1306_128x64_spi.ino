@@ -19,21 +19,22 @@ All text above, and the splash screen must be included in any redistribution
 #include <SPI.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-/*
-// If using software SPI (the default case):
-#define OLED_MOSI   9
-#define OLED_CLK   10
-#define OLED_DC    11
-#define OLED_CS    12
-#define OLED_RESET 13
-Adafruit_SSD1306 display(OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
-*/
-//* Uncomment this block to use hardware SPI
-#define OLED_DC     A0
-#define OLED_CS     A4
-#define OLED_RESET  A5
+
+// Carduino 32U4
+#if defined(__AVR_ATmega32U4__)
+#define OLED_DC     4
+#define OLED_CS     12
+#define OLED_RESET  6
 Adafruit_SSD1306 display(OLED_DC, OLED_RESET, OLED_CS);
-//*/
+#else
+// Carduino 328
+#define OLED_MOSI   11
+#define OLED_CLK   13
+#define OLED_DC    4
+#define OLED_CS    12
+#define OLED_RESET 6
+Adafruit_SSD1306 display(OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
+#endif
 
 #define NUMFLAKES 10
 #define XPOS 0
