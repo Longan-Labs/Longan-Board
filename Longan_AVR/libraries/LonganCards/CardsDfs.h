@@ -29,6 +29,7 @@
 #define UNIT_ANALOG             6       // A NUMBER BETWEEN 0~1023
 #define UNIT_GESTURE            7       // GESTURE
 #define UNIT_ALTITUDE           8       // m
+#define UNIT_BOOL               9       // BOOL, ON/OFF
 
 // GESTURE
 #define GESTURE_UP              1
