@@ -15,6 +15,7 @@ atmega168bb.bootloader.lock_bits=0x0F
 
 atmega168bb.build.mcu=atmega168
 atmega168bb.build.f_cpu=8000000L
+atmega168bb.build.board=AVR_ATMEGA168BB
 atmega168bb.build.core=arduino:arduino
 atmega168bb.build.variant=arduino:standard
 
@@ -110,6 +111,7 @@ atmega168bc.bootloader.lock_bits=0x0F
 
 atmega168bc.build.mcu=atmega168
 atmega168bc.build.f_cpu=8000000L
+atmega168bc.build.board=AVR_ATMEGA168BB
 atmega168bc.build.core=arduino:arduino
 atmega168bc.build.variant=arduino:standard
 
