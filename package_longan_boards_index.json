@@ -304,7 +304,7 @@
           "help": {
             "online": "https://docs.longan-labs.cc/"
           },
-          "url": "https://raw.githubusercontent.com/Longan-Labs/Longan-Board/master/Longan_AVR_v1.0.6.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Longan-Labs/Longan-Board/master/Longan_AVR_v1.0.7.tar.bz2",
           "archiveFileName": "Longan_AVR_v1.0.7.tar.bz2",
           "checksum": "SHA-256:dc525687b82cb34686fa39a258d8b470e57a4e4dad2034407af4766915183974",
           "size": "5180135",
