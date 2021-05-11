@@ -1,7 +1,17 @@
-[![](https://www.longan-labs.cc/media/catalog/category/Categories-17.png)](https://www.longan-labs.cc/platform/arduino.html)
+# Longan Board
+
+[![Actions Status](https://github.com/arduino/arduino-cli-example/workflows/test/badge.svg)](https://github.com/arduino/arduino-cli-example/actions)
+[![Spell Check](https://github.com/arduino/compile-sketches/workflows/Spell%20Check/badge.svg)](https://github.com/arduino/compile-sketches/actions?workflow=Spell+Check)
+[![codecov](https://codecov.io/gh/arduino/compile-sketches/branch/main/graph/badge.svg?token=Uv6f1ebMZ4)](https://codecov.io/gh/arduino/compile-sketches)
+
 
 This is the Arduino Platform File for AVR Series Arduino board. 
 
+Support,
+
+- Serial CAN Bus Module
+- Carduino 328
+- Carduino 32U4
 
 ## License
 
